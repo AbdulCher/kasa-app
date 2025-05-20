@@ -12,6 +12,7 @@ export default function Banner() {
 
       <nav className="my-nav">
         <Link to="/">Accueil</Link>
+        <Link to="/about">A Propos</Link>
       </nav>
     </header>
   );
