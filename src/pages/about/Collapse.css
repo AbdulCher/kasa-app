@@ -1,0 +1,23 @@
+.collapse {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 1rem 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+.collapse-header {
+  background-color: #FF6060;
+  color: #ffff;
+  padding: 0.01rem 0.4rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.collapse-content {
+  padding: 0.1rem;
+  background-color: #ffff;
+}
