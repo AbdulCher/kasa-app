@@ -6,6 +6,7 @@ export default function Collapse({ title, content }) {
   const [isOpen, setIsOpen] = useState(false); // <- Doit rester ici, DANS le composant
 
   return (
+    
     <div className="collapse">
       <div className="collapse-header" onClick={() => setIsOpen(!isOpen)}>
         <h3>{title}</h3>

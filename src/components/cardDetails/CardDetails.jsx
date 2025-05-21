@@ -38,15 +38,51 @@ export default function CardDetails() {
           <img src="/icons/arrow-right.svg" alt="Suivant" />
         </button>
       </div>
-      <h1>{card.title}</h1>
-      <p>Paris, Ile de France</p>
-      <div>
-        
+      
+      <div className="div-title-host">
+        <div className="title">
+          <h1>{card.title}</h1>
+          <p>Paris, Ile de France</p>
+        </div>
+
+        <div className="host">
+          <p className="host-name">{card.host.name}</p>
+          <img className="host-picture" src={card.host.picture} alt={card.host.name} />
+        </div>
       </div>
+
+      <div className="div-tags-rating">
+        <div className="tags">
+          {card.tags && (
+            <div className="tags-container">
+              {card.tags.map((tag, index) => (
+              <span key={index} className="tag">
+                {tag}
+              </span>
+               ))}
+            </div>
+          )}
+        </div>
+
+        <div className="rating">
+          {[1, 2, 3, 4, 5].map((star) => (
+            <span key={star} className={star <= parseInt(card.rating) ? "star filled" : "star"}>
+              ★
+            </span>
+          ))}
+        </div>
+
+      </div>
+      
+
+      
+
+
       <div className="card-collapses">
         <Collapse title="Description" content={card.description} />
         <Collapse title="Équipements" content={card.equipments} />
       </div>
+
     </div>
   );
 }
