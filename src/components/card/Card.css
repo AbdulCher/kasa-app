@@ -15,10 +15,12 @@
   width: 100%;
   height: 200px;
   object-fit: cover;
-  color: #FF6060;
+  background-color: #FF6060;
 }
 
 .card-title {
   padding: 10px;
-  font-size: 1.2rem;
+  font-size: 1rem;
+  background-color: #FF6060;
+  color: white;
 }

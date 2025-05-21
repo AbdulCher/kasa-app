@@ -1,6 +1,6 @@
 import Session from "../../components/session/Session";
 import imageAbout from "../../assets/kalen.svg";
-import Collapse from "./Collapse";
+import Collapse from "../../components/collapse/Collapse";
 
 export default function Apropos() {
   return (

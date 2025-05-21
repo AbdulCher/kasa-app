@@ -21,3 +21,19 @@
   padding: 0.1rem;
   background-color: #ffff;
 }
+
+.collapse-content.open {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+/* CardDetails.css */
+.card-collapses {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.collapse {
+  flex: 1 1 45%;
+}
