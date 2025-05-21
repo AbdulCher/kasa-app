@@ -1,8 +1,9 @@
-.session {
+.session-page {
   position: relative;
-  width: 100%;
-  height: 200px;
+  width: 88%;
+  height: 150px;
   margin-bottom: 20px;
+  margin-left: 70px;
   overflow: hidden;
   border-radius: 10px;
 }

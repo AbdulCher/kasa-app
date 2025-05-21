@@ -1,5 +1,29 @@
-.my-header {
+.banner {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 5px 50px;
 }
 
+.banner-logo {
+    height: 60px;
+}
+
+.navigation-link {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+}
+
+.navigation-link {
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+.navigation-link.active {
+  text-decoration: underline;
+}

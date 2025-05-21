@@ -1,19 +1,31 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import logo from "../../assets/LOGO.svg";
+import './Banner.css';
+
 
 export default function Banner() {
 
   return (
-    <header className="my-header">
+    <div className="banner">
         
-      <div className="logo">
+      <div className="banner-logo">
         <img src={logo} alt="Logo" />
       </div>
 
-      <nav className="my-nav">
-        <Link to="/">Accueil</Link>
-        <Link to="/about">A Propos</Link>
+      <nav className="navigation-link">
+        <NavLink 
+          to="/" 
+          className={({ isActive }) => isActive ? "navigatio-link active" : "navigation-link"}
+        >
+          Accueil
+        </NavLink>
+        <NavLink 
+          to="/about" 
+          className={({ isActive }) => isActive ? "navigation-link active" : "navigation-link"}
+        >
+          A propos
+        </NavLink>
       </nav>
-    </header>
+    </div>
   );
 }
