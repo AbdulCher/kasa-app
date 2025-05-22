@@ -1,6 +1,5 @@
 .card-details {
-  max-width: 800px;
-  margin: auto;
+  margin: 20px 50px;
   padding: 1rem;
 }
 
@@ -13,7 +12,7 @@
 
 .carousel img {
   width: 100%;
-  max-height: 400px;
+  max-height: 415px;
   object-fit: cover;
   border-radius: 10px;
 }
@@ -39,8 +38,19 @@
   right: 10px;
 }
 
-.arrow:hover {
-  color: #ff6060; /* ou toute autre couleur de hover */
+.div-title-host {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.host-title {
+  color: #ff6060;
+}
+.host-title p {
+  color: black;
+  margin-top: 0px;
 }
 
 .host {
@@ -48,7 +58,7 @@
   align-items: center;
   justify-content: flex-end;
   gap: 10px;
-  margin-top: 10px;
+  
 }
 
 .host-name {
@@ -65,13 +75,34 @@
   object-fit: cover;
 }
 
+.div-tags-rating {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.tags-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 0px;
+}
+.tag {
+  background-color: #ff6060;
+  color: white;
+  padding: 6px 15px;
+  border-radius: 20px;
+  font-size: 0.7rem;
+  font-weight: 500;
+}
 .rating {
   display: flex;
   gap: 5px;
 }
 
 .star {
-  font-size: 20px;
+  font-size: 28px;
   color: lightgray;
 }
 
@@ -79,6 +110,21 @@
   color: #ff6060;
 }
 
+.card-collapses {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 4rem; /* espace horizontal entre les Collapse */
+  width: 100%;
+  margin: 0.9rem auto; /* centrage horizontal + espace au-dessus */
+}
+
+.card-collapses > * {
+  flex: 1;
+}
+.card-collapses .collapse {
+  margin: 0; /* Supprime toute marge par défaut */
+}
 
 .carousel-image {
   width: 100%;
@@ -108,36 +154,9 @@
   right: 10px;
 }
 
-.card-collapses {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
 
-.tags-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-bottom: 20px;
-}
 
-.tag {
-  background-color: #ff6060;
-  color: white;
-  padding: 6px 12px;
-  border-radius: 10px;
-  font-size: 0.9rem;
-  font-weight: 500;
-}
 
-.div-title-host {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
 
-.div-tags-rating {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
+
+

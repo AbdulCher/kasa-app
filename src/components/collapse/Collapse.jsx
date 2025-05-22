@@ -2,12 +2,13 @@
 import { useState } from "react";
 import "./Collapse.css";
 
-export default function Collapse({ title, content }) {
+export default function Collapse({ title, content, className = "" }) {
   const [isOpen, setIsOpen] = useState(false); // <- Doit rester ici, DANS le composant
 
   return (
     
-    <div className="collapse">
+    <div className={`collapse ${className}`}>
+
       <div className="collapse-header" onClick={() => setIsOpen(!isOpen)}>
         <h3>{title}</h3>
         <span>{isOpen ? "▲" : "▼"}</span>

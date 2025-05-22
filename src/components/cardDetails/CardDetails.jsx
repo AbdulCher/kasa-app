@@ -40,7 +40,7 @@ export default function CardDetails() {
       </div>
       
       <div className="div-title-host">
-        <div className="title">
+        <div className="host-title">
           <h1>{card.title}</h1>
           <p>Paris, Ile de France</p>
         </div>
@@ -74,13 +74,9 @@ export default function CardDetails() {
 
       </div>
       
-
-      
-
-
       <div className="card-collapses">
-        <Collapse title="Description" content={card.description} />
-        <Collapse title="Équipements" content={card.equipments} />
+        <Collapse title="Description" content={card.description} className="card-collapse" />
+        <Collapse title="Équipements" content={card.equipments} className="card-collapse" />
       </div>
 
     </div>
