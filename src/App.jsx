@@ -3,7 +3,7 @@ import Home from './pages/home/Home';
 import About from './pages/about/About';
 import NotFound from './pages/notFound/NotFound';
 import Header from './components/header/Header';
-import Carrousel from './components/carrousel/Carrousel';
+import Accommodation from "./pages/accommodation/Accommodation";
 import Footer from './components/footer/Footer';
 
 
@@ -18,7 +18,7 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="*" element={<NotFound />} />
-        <Route path="/logement/:id" element={<Carrousel />} />
+        <Route path="/accommodation/:id" element={<Accommodation />} />
       </Routes>
       
       <Footer />

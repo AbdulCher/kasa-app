@@ -1,16 +1,23 @@
-.carrousel-details {
-  margin: 20px 50px;
+.my-carrousel {
+  margin: 10px 50px;
   padding: 1rem;
 }
 
-.carousel {
+.accommodation-infos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0px 50px;
+  padding: 1rem;
+}
+.my-carrousel {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.carousel img {
+.my-carrousel img {
   width: 100%;
   max-height: 415px;
   object-fit: cover;
@@ -38,18 +45,18 @@
   right: 10px;
 }
 
-.div-title-host {
+.div-title-tag {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
-  margin-top: 30px;
+  
 }
 
-.host-title {
+.title-tag {
   color: #ff6060;
   font-size: 18px;
 }
-.host-title p {
+.title-tag p {
   color: black;
   margin-top: 0px;
   font-size: 18px;
@@ -75,13 +82,14 @@
   height: 50px;
   border-radius: 50%;
   object-fit: cover;
+  
 }
 
-.div-tags-rating {
+.div-host-rating {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-top: 15px;
+  flex-direction: column;
+  justify-content: flex-end;
+  
 }
 
 .tags-container {
@@ -89,6 +97,7 @@
   flex-wrap: wrap;
   gap: 10px;
   margin-bottom: 0px;
+  margin-top: 10px;
 }
 .tag {
   background-color: #ff6060;
@@ -100,7 +109,9 @@
 }
 .rating {
   display: flex;
+  justify-content: flex-end;
   gap: 5px;
+  margin-top: 10px;
 }
 
 .star {
@@ -116,9 +127,10 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin: 0px 50px;
+  padding: 1rem;
   gap: 4rem; /* espace horizontal entre les Collapse */
-  width: 100%;
-  margin: 0.9rem auto; /* centrage horizontal + espace au-dessus */
+  
 }
 
 .carrousel-collapses > * {
