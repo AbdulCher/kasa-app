@@ -1,4 +1,4 @@
-import Session from "../../components/session/Session";
+import Session from "../../components/banner/Banner";
 import imageHome from "../../assets/IMG.svg";
 import Gallery from "../../components/gallery/Gallery";
 

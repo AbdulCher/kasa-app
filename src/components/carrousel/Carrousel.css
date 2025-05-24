@@ -1,4 +1,4 @@
-.card-details {
+.carrousel-details {
   margin: 20px 50px;
   padding: 1rem;
 }
@@ -47,10 +47,12 @@
 
 .host-title {
   color: #ff6060;
+  font-size: 18px;
 }
 .host-title p {
   color: black;
   margin-top: 0px;
+  font-size: 18px;
 }
 
 .host {
@@ -62,7 +64,7 @@
 }
 
 .host-name {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
   color: #ff6060;
   text-align: right;
@@ -91,9 +93,9 @@
 .tag {
   background-color: #ff6060;
   color: white;
-  padding: 6px 15px;
+  padding: 4px 20px;
   border-radius: 20px;
-  font-size: 0.7rem;
+  font-size: 14px;
   font-weight: 500;
 }
 .rating {
@@ -110,7 +112,7 @@
   color: #ff6060;
 }
 
-.card-collapses {
+.carrousel-collapses {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -119,10 +121,10 @@
   margin: 0.9rem auto; /* centrage horizontal + espace au-dessus */
 }
 
-.card-collapses > * {
+.carrousel-collapses > * {
   flex: 1;
 }
-.card-collapses .collapse {
+.carrousel-collapses .collapse {
   margin: 0; /* Supprime toute marge par défaut */
 }
 

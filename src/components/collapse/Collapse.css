@@ -1,5 +1,5 @@
 .collapse {
-  border: 1px solid #ccc;
+  border: transparent;
   border-radius: 5px;
   margin: 1rem 0 0 12rem;
   overflow: hidden;
@@ -14,11 +14,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
+  border-radius: 5px;
+  font-size: 18px;
 }
 
 .collapse-content {
-  padding: 2rem;
+  padding: 1rem;
   background-color: #ffff;
 }
 

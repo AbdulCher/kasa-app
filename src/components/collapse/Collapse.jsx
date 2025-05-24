@@ -10,7 +10,7 @@ export default function Collapse({ title, content, className = "" }) {
     <div className={`collapse ${className}`}>
 
       <div className="collapse-header" onClick={() => setIsOpen(!isOpen)}>
-        <h3>{title}</h3>
+        <h3>{title}</h3> 
         <span>{isOpen ? "▲" : "▼"}</span>
       </div>
 

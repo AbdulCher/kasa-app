@@ -2,9 +2,9 @@ import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import Collapse from "../collapse/Collapse";
 
-import "./CardDetails.css";
+import "./Carrousel.css";
 
-export default function CardDetails() {
+export default function Carrousel() {
   const { id } = useParams();
   const [card, setCard] = useState(null);
   const [index, setIndex] = useState(0);
@@ -28,7 +28,7 @@ export default function CardDetails() {
     setIndex((prevIndex) => (prevIndex + 1) % card.pictures.length);
 
   return (
-    <div className="card-details">
+    <div className="carrousel-details">
       <div className="carousel">
         <button className="arrow left" onClick={handlePrev}>
           <img src="/icons/arrow-left.svg" alt="Précédent" />
@@ -74,9 +74,9 @@ export default function CardDetails() {
 
       </div>
       
-      <div className="card-collapses">
-        <Collapse title="Description" content={card.description} className="card-collapse" />
-        <Collapse title="Équipements" content={card.equipments} className="card-collapse" />
+      <div className="carrousel-collapses">
+        <Collapse title="Description" content={card.description} className="carrousel-collapse" />
+        <Collapse title="Équipements" content={card.equipments} className="carrousel-collapse" />
       </div>
 
     </div>
