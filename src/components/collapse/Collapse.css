@@ -28,3 +28,33 @@
   padding-bottom: 0.5rem;
 }
 
+.collapse-icon {
+  width: 20px;
+  height: 20px;
+  transition: transform 0.9s ease;
+}
+.collapse-icon.rotated {
+  transform: rotate(-180deg);
+}
+/* Conteneur avec transition d'ouverture */
+.collapse-content-wrapper {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(-2px); /* déplacement vers le haut */
+  transition: 
+    max-height 0.9s ease,
+    opacity 0.9s ease,
+    transform 0.9s ease;
+}
+
+
+.collapse-content-wrapper.open {
+  max-height: 500px; /* suffisamment grand pour le contenu */
+  opacity: 1;
+  transform: translateY(0); /* revient à sa position d'origine */
+}
+
+.collapse-content {
+  padding: 0.5rem 0;
+}

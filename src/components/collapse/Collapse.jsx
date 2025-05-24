@@ -1,20 +1,24 @@
-// components/Collapse.jsx
 import { useState } from "react";
 import "./Collapse.css";
+import arrow from "../../assets/arrow.svg";
+
 
 export default function Collapse({ title, content, className = "" }) {
-  const [isOpen, setIsOpen] = useState(false); // <- Doit rester ici, DANS le composant
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
-    
     <div className={`collapse ${className}`}>
-
       <div className="collapse-header" onClick={() => setIsOpen(!isOpen)}>
-        <h3>{title}</h3> 
-        <span>{isOpen ? "▲" : "▼"}</span>
+        <h3>{title}</h3>
+        <img
+          src={arrow}
+          alt={isOpen ? "Réduire" : "Déplier"}
+          className={`collapse-icon ${isOpen ? "rotated" : ""}`}
+        />
       </div>
 
-      {isOpen && (
+      
+        <div className={`collapse-content-wrapper ${isOpen ? "open" : ""}`}>
         <div className="collapse-content">
           {Array.isArray(content) ? (
             <ul>
@@ -26,7 +30,8 @@ export default function Collapse({ title, content, className = "" }) {
             <p>{content}</p>
           )}
         </div>
-      )}
+  
+    </div>
     </div>
   );
 }
