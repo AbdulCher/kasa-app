@@ -1,9 +1,9 @@
 .banner-page {
+  left: 5.2%;
   position: relative;
   width: 88%;
   height: 160px;
-  margin-bottom: 20px;
-  margin-left: 70px;
+  margin-bottom: 40px;
   overflow: hidden;
   border-radius: 10px;
 }

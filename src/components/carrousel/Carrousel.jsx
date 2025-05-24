@@ -1,8 +1,9 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import Collapse from "../collapse/Collapse";
-
 import "./Carrousel.css";
+import starFilled from "../../assets/star-filled.svg";
+import starEmpty from "../../assets/star-empty.svg";
 
 export default function Carrousel() {
   const { id } = useParams();
@@ -66,9 +67,12 @@ export default function Carrousel() {
 
         <div className="rating">
           {[1, 2, 3, 4, 5].map((star) => (
-            <span key={star} className={star <= parseInt(card.rating) ? "star filled" : "star"}>
-              ★
-            </span>
+            <img
+              key={star}
+              src={star <= parseInt(card.rating) ? starFilled : starEmpty}
+              alt={`Star ${star}`}
+              className="star"
+            />
           ))}
         </div>
 

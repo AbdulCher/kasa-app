@@ -1,11 +1,11 @@
 .gallery {
   display: flex;
-  
+  background-color: #F6F6F6;
   flex-wrap: wrap;
   gap: 1rem;
   justify-content: center;
   padding: 2rem;
   
   border: transparent;
-  margin: 10px 68px;
+  margin: 10px 84px 10px 68px;
 }
