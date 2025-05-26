@@ -1,11 +1,11 @@
-import Session from "../../components/banner/Banner";
+import Banner from "../../components/banner/Banner";
 import imageAbout from "../../assets/kalen.svg";
 import Collapse from "../../components/collapse/Collapse";
 
 export default function Apropos() {
   return (
     <div className="apropos">
-      <Session image={imageAbout} />
+      <Banner image={imageAbout} />
 
       <Collapse title="Fiabilité" 
           content="Les annonces postées sur Kasa garantissent une fiabilité totale. 
