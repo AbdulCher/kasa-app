@@ -2,7 +2,6 @@ import { useState } from "react";
 import "./Collapse.css";
 import arrow from "../../assets/arrow.svg";
 
-
 export default function Collapse({ title, content, className = "" }) {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -16,8 +15,6 @@ export default function Collapse({ title, content, className = "" }) {
           className={`collapse-icon ${isOpen ? "rotated" : ""}`}
         />
       </div>
-
-      
         <div className={`collapse-content-wrapper ${isOpen ? "open" : ""}`}>
         <div className="collapse-content">
           {Array.isArray(content) ? (
@@ -30,8 +27,8 @@ export default function Collapse({ title, content, className = "" }) {
             <p>{content}</p>
           )}
         </div>
-  
-    </div>
+      </div>
+
     </div>
   );
 }

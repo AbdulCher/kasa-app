@@ -1,0 +1,90 @@
+.accommodation-infos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0px 50px;
+  padding: 1rem;
+}
+.div-title-tag {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.title-tag {
+  color: #ff6060;
+  font-size: 18px;
+}
+.title-tag p {
+  color: black;
+  margin-top: 5px;
+  font-size: 18px;
+}
+.tags-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+.tag {
+  background-color: #ff6060;
+  color: white;
+  padding: 4px 20px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.host {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+  gap: 10px;
+  
+}
+.host-name {
+  font-size: 18px;
+  font-weight: 500;
+  color: #ff6060;
+  text-align: right;
+}
+.host-picture {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.div-host-rating {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.rating {
+  display: flex;
+ 
+  gap: 5px;
+  margin-top: 20px;
+}
+.star {
+  font-size: 28px;
+  color: lightgray;
+}
+.star.filled {
+  color: #ff6060;
+}
+.carrousel-collapses {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0px 50px;
+  padding: 1rem;
+  gap: 4rem; /* espace horizontal entre les Collapse */
+  
+}
+.carrousel-collapses > * {
+  flex: 1;
+}
+.carrousel-collapses .collapse {
+  margin: 0; /* Supprime toute marge par défaut */
+}

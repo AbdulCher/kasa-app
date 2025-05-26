@@ -1,7 +1,7 @@
 import Collapse from "../collapse/Collapse";
 import starFilled from "../../assets/star-filled.svg";
 import starEmpty from "../../assets/star-empty.svg";
-
+import "./AccommodationDetails.css";
 
 export default function AccommodationDetails({ card }) {
   return (
@@ -35,7 +35,6 @@ export default function AccommodationDetails({ card }) {
                     />
                 ))}
             </div>
-            
         </div>
     </div>
     <div className="carrousel-collapses">
