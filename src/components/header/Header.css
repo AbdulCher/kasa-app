@@ -3,13 +3,11 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    margin: 5px 50px;
+    margin: 5px 50px 20px 50px;
 }
-
 .header-logo {
     height: 60px;
 }
-
 .navigation-link {
     margin: 0 10px;
     text-decoration: none;
@@ -18,7 +16,6 @@
     margin-left: 20px;
     font-weight: 500;
 }
-
 .navigation-link.active {
   text-decoration: underline;
 }
