@@ -5,7 +5,13 @@
   gap: 1rem;
   justify-content: center;
   padding: 2rem;
-  border-radius: 10px;
+  border-radius: 0.62rem;
   border: transparent;
-  margin: 10px 84px 10px 68px;
+  margin: 0.31rem 3.12rem 1.25rem 3.12rem;
+}
+
+
+/*@media (max-width: 832px) {
+    
+    
 }

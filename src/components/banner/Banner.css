@@ -1,27 +1,31 @@
 .banner-page {
-  left: 5.2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
-  width: 88%;
-  height: 160px;
-  margin-bottom: 40px;
+  margin: 0.31rem 3.12rem 1.25rem 3.12rem;
+  height: 10rem;
   overflow: hidden;
-  border-radius: 10px;
+  border-radius: 0.62rem;
 }
-
 .banner-image {
-  width: 100%;
-  height: 100%;
   object-fit: cover;
   filter: brightness(0.5);
 }
-
 .banner-text {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   color: white;
-  font-size: 38px;
+  font-size: 2.37rem;
   font-weight: bold;
   text-align: center;
+}
+/*@media (max-width: 1092px) {
+  .banner-text {
+    font-size: 26px;
+  }
+}
+@media (max-width: 660px) {
+  .banner-text {
+    font-size: 20px;
+  }
 }

@@ -1,9 +1,14 @@
 .collapse {
   border: transparent;
-  border-radius: 5px;
-  margin: 0 0 0 12rem;
+  border-radius: 0.31rem;
+  margin: 0;
   overflow: hidden;
   width: 70%;
+}
+.collapse-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .collapse-header {
   background-color: #FF6060;
@@ -13,8 +18,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-radius: 5px;
-  font-size: 18px;
+  border-radius: 0.31rem;
+  font-size: 1.12rem;
 }
 .collapse-content {
   padding: 1rem;
@@ -25,8 +30,8 @@
   padding-bottom: 0.5rem;
 }
 .collapse-icon {
-  width: 20px;
-  height: 20px;
+  width: 1.25rem;
+  height: 1.12rem;
   transition: transform 0.9s ease;
 }
 .collapse-icon.rotated {
@@ -34,9 +39,9 @@
 }
 /* Conteneur avec transition d'ouverture */
 .collapse-content-wrapper {
-  padding: 10px;
+  padding: 0.62rem;
   max-height: 0;
-  font-size: 18px;
+  font-size: 1.12rem;
   overflow: hidden;
   opacity: 0;
   transform: translateY(-9px); /* déplacement vers le haut */
@@ -46,7 +51,7 @@
     transform 0.9s ease;
 }
 .collapse-content-wrapper.open {
-  max-height: 500px; /* suffisamment grand pour le contenu */
+  max-height: 31.25rem; /* suffisamment grand pour le contenu */
   opacity: 1;
   transform: translateY(0); /* revient à sa position d'origine */
 }

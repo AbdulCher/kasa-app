@@ -15,6 +15,17 @@ body {
   min-width: 320px;
   background-color: #fff; 
   font-family: "Montserrat", sans-serif;
+  font-weight: normal;
 }
 
-
+@media (max-width: 482px) {
+  .div-host-rating {
+    flex-direction: row-reverse; 
+  }
+  .accommodation-infos {
+    flex-direction: column;
+  }
+  .tag {
+    flex-direction: column;
+  }
+}

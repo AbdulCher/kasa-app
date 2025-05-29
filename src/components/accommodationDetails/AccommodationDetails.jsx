@@ -8,7 +8,7 @@ export default function AccommodationDetails({ card }) {
     <>
     <div className="accommodation-infos">
         <div className="div-title-tag">
-            <div className="title-tag">
+            <div className="title-text">
                 <h1>{card.title}</h1>
                 <p>{card.location}</p>
             </div>

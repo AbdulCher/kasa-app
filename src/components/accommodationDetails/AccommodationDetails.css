@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 0px 50px;
+  margin: 0 1.87rem;
   padding: 1rem;
 }
 .div-title-tag {
@@ -10,45 +10,47 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.title-tag {
+.title-text h1 {
+  font-weight: normal;
   color: #ff6060;
-  font-size: 18px;
+  font-size: 2.25rem;
+ 
 }
-.title-tag p {
+.title-text p {
   color: black;
-  margin-top: 5px;
-  font-size: 18px;
+  margin-top: 0.31rem;
+  font-size: 0.94rem;
 }
 .tags-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
-  margin-bottom: 0px;
-  margin-top: 20px;
+  gap: 0.62rem;
+  margin-bottom: 0;
+  margin-top: 1.25rem;
 }
 .tag {
   background-color: #ff6060;
   color: white;
-  padding: 4px 20px;
-  border-radius: 20px;
-  font-size: 14px;
+  padding: 0.25rem 1.25rem;
+  border-radius: 1.25rem;
+  font-size: 0.87rem;
   font-weight: 500;
 }
 .host {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 10px;
+  gap: 0.62rem;
 }
 .host-name {
-  font-size: 18px;
+  font-size: 1.12rem;
   font-weight: 500;
   color: #ff6060;
   text-align: right;
 }
 .host-picture {
-  width: 50px;
-  height: 50px;
+  width: 3.12rem;
+  height: 3.12rem;
   border-radius: 50%;
   object-fit: cover;
 }
@@ -59,11 +61,12 @@
 .rating {
   display: flex;
   justify-content: end;
-  gap: 5px;
-  margin-top: 20px;
+  gap: 0.31rem;
+  margin-top: 1.25rem;
+  font-size: 12rem;
 }
 .star {
-  font-size: 28px;
+  font-size: 1.75rem;
   color: lightgray;
 }
 .star.filled {
@@ -73,7 +76,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 0px 50px;
+  margin: 0 1.87rem;
   padding: 1rem;
   gap: 4rem; /* espace horizontal entre les Collapse */
 }
@@ -81,5 +84,23 @@
   flex: 1;
 }
 .carrousel-collapses .collapse {
+  width: 100%;
   margin: 0; /* Supprime toute marge par défaut */
+}
+
+@media (max-width: 573px) {
+    
+  .title-text h1 {
+    font-size: 1.12rem;
+  }
+  .title-text p {
+    font-size: 0.87rem;
+  }
+  .tag {
+    font-size: 0.62rem;
+  }
+  .host-name {
+  font-size: 1.12rem;
+  }
+
 }
