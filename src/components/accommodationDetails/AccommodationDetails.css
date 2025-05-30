@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 0 1.87rem;
+  margin: 0px 80px;
   padding: 1rem;
 }
 .div-title-tag {
@@ -76,7 +76,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 0 1.87rem;
+  margin: 0px 80px;
   padding: 1rem;
   gap: 4rem; /* espace horizontal entre les Collapse */
 }
@@ -88,7 +88,112 @@
   margin: 0; /* Supprime toute marge par défaut */
 }
 
-@media (max-width: 573px) {
+@media (max-width: 1272px) {
+    .title-text h1 {
+  font-size: 2rem;
+}
+.title-text p {
+  
+  font-size: 0.74rem;
+}
+}
+@media (max-width: 1093px) {
+    .title-text h1 {
+  font-size: 1.8rem;
+}
+.title-text p {
+  
+  font-size: 0.64rem;
+}
+}
+
+@media (max-width: 796px) {
+  .title-text h1 {
+  font-size: 1.30rem;
+}
+.title-text p {
+  
+  font-size: 0.74rem;
+}
+.host-name {
+  font-size: 0.72rem;
+
+}
+.tag {
+ 
+  font-size: 0.10rem;
+ 
+}
+.rating {
+  
+  font-size: 10rem;
+}
+.star {
+  width: 1rem;
+  
+}
+}
+@media (max-width: 636px) {
+  .title-text h1 {
+  font-size: 1.10rem;
+}
+
+.title-text p {
+  
+  font-size: 0.54rem;
+}
+.host-name {
+  font-size: 0.52rem;
+
+}
+.tag {
+ 
+  font-size: 0.08rem;
+ 
+}
+.rating {
+  
+  font-size: 10rem;
+}
+.star {
+  width: 0.8rem;
+  
+}
+}
+@media (max-width: 525px) {
+   .title-text h1 {
+  font-size: 0.90rem;
+}
+
+.title-text p {
+  
+  font-size: 0.44rem;
+}
+.host-name {
+  font-size: 0.42rem;
+
+}
+.tag {
+ 
+  font-size: 0.06rem;
+ 
+}
+.rating {
+  
+  font-size: 8rem;
+}
+.star {
+  width: 0.6rem;
+  
+}
+}
+@media (max-width: 475px) {
+
+}
+@media (max-width: 393px) {
+ 
+}
+/*@media (max-width: 573px) {
     
   .title-text h1 {
     font-size: 1.12rem;

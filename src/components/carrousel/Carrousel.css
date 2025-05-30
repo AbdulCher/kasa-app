@@ -3,8 +3,8 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  margin: 0 1.87rem;
-  padding: 1rem;
+  margin: 0px 80px;
+  padding: 0 1rem;
 }
 .my-carrousel img {
   width: 100%;
@@ -48,12 +48,40 @@
   transform: translateY(-50%);
   z-index: 1;
 }
-/*.nav-button:first-of-type {
-  left: 10px;
+
+@media (max-width: 1272px) {
+  
 }
-.nav-button:last-of-type {
-  right: 10px;
-}*/
+@media (max-width: 1093px) {
+  .my-carrousel button {
+    width: 7rem;
+  }
+ 
+}
+
+@media (max-width: 796px) {
+  .my-carrousel button {
+    width: 6rem;
+  }
+}
+@media (max-width: 636px) {
+  
+}
+@media (max-width: 525px) {
+ .my-carrousel button {
+    width: 5rem;
+  }
+}
+@media (max-width: 475px) {
+  .my-carrousel button {
+    width: 4rem;
+  }
+}
+@media (max-width: 393px) {
+  
+}
+
+
 
 
 

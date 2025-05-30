@@ -3,5 +3,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 6rem;
+}
+
+.error404 {
+    height: 263px;
+}
+
+.errorText {
+    width: 872px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

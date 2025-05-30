@@ -9,7 +9,10 @@ export default function ErrorPage() {
             <div className="error">
                 <img src={Error404} alt="error-404" className="error404"/>
                 <img src={ErrorText} alt="error-text" className="errorText"/>
-                <Link to="/">Retour sur la page accueil</Link>
+                <div>
+                    <Link to="/">Retour sur la page accueil</Link>
+                </div>
+                
             </div>
         </>
     )  

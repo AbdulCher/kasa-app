@@ -3,11 +3,11 @@
   background-color: #F6F6F6;
   flex-wrap: wrap;
   gap: 1rem;
+  padding: 10px;
   justify-content: center;
-  padding: 2rem;
   border-radius: 0.62rem;
   border: transparent;
-  margin: 0.31rem 3.12rem 1.25rem 3.12rem;
+  margin: 40px 100px;
 }
 
 
