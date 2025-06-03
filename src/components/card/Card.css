@@ -1,8 +1,6 @@
 .card { 
-  width: 100%; /* Chaque card prendra 30% de la largeur du conteneur */
-  aspect-ratio: 3 / 3; /* Donne une hauteur proportionnelle */
-  
-  
+  width: 100%; 
+  aspect-ratio: 3 / 3; 
   object-fit: cover;
   height: 21.25rem;
   border-radius: 0.5rem;
@@ -13,95 +11,30 @@
   box-shadow: 0 0.12rem 0.37rem rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease;
 }
-.card:hover {
-  transform: scale(1.03);
-}
-.card-cover {
-  width: 100%;
-  height: 17.5rem;
-  object-fit: cover;
-  padding: 0;
-}
-.card-title {
-  padding-left: 0.5rem;
-  font-size: 1.12rem;
-  color: white;
-  height: 3.12rem;
-}
-.card-link {
-  text-decoration: none;
-  color: inherit;
-}
+.card:hover { transform: scale(1.03); }
+.card-cover { width: 100%; height: 17.5rem; object-fit: cover; padding: 0; }
+.card-title { padding-left: 0.5rem; font-size: 1.25rem; color: white; height: 3.12rem; }
+.card-link { text-decoration: none; color: inherit; }
 
 @media (max-width: 1272px) {
-  .card {
-      width: 17.5rem;
-      height: 17.5rem;
-  }
-  .card-cover {
-      height: 225px;
-  }
-  .card-title {
-      font-size: 1.16rem;
+  .card { width: 17.5rem; height: 17.5rem; }
+  .card-cover { height: 14.06rem; }
+  .card-title { font-size: 1.02rem; }
+}
+@media (max-width: 1028px) {
+  .card { width: 12.5rem; height: 12.5rem; }
+  .card-cover { height: 156px; }
+  .card-title { font-size: 0.75rem; }
+}
+@media (max-width: 576px) {
+  .card { width: 16rem; height: 11rem; }
+  .card-cover { height: 126px; }
+  .card-title { font-size: 0.82rem; padding-top: 0.05rem 1.19rem 0.94rem 0.8rem;
+      margin-right: 2rem;
   }
 }
-@media (max-width: 1093px) {
-  .card {
-      width: 16.5rem;
-      height: 16.5rem;
-  }
-  .card-cover {
-      height: 209px;
-  }
-  .card-title {
-      font-size: 0.80rem;
-  }
-}
-@media (max-width: 796px) {
-  .card {
-      width: 12.5rem;
-      height: 12.5rem;
-  }
-  .card-cover {
-      height: 155px;
-  }
-  .card-title {
-      font-size: 0.80rem;
-  }
-}
-@media (max-width: 525px) {
-  .card {
-      width: 10.5rem;
-      height: 10.5rem;
-  }
-  .card-cover {
-      height: 124px;
-  }
-  .card-title {
-      font-size: 0.6rem;
-  }
-}
-@media (max-width: 475px) {
-  .card {
-      width: 9rem;
-      height: 9rem;
-  }
-  .card-cover {
-      height: 112px;
-  }
-  .card-title {
-      font-size: 0.6rem;
-  }
-}
-@media (max-width: 393px) {
-  .card {
-      width: 6.5rem;
-      height: 6.5rem;
-  }
-  .card-cover {
-      height: 74px;
-  }
-  .card-title {
-      font-size: 0.4rem;
-  }
+@media (max-width: 324px) {
+  .card { width: 14rem; height: 9rem; }
+  .card-cover { height: 102px; }
+  .card-title { font-size: 0.82rem; margin-right: 2rem; }
 }

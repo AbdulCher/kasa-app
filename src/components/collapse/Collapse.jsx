@@ -6,7 +6,7 @@ export default function Collapse({ title, content, className = "" }) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="collapse-div">
+    
       <div className={`collapse ${className}`}>
         <div className="collapse-header" onClick={() => setIsOpen(!isOpen)}>
           <h3>{title}</h3>
@@ -31,6 +31,6 @@ export default function Collapse({ title, content, className = "" }) {
         </div>
 
       </div>
-    </div>
+    
   );
 }

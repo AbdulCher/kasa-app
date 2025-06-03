@@ -1,9 +1,14 @@
+/*.collapses-div {
+  height: 298px;
+}*/
 .collapse {
   border: transparent;
   border-radius: 0.31rem;
-  margin: 0;
+  margin: 0 auto;
   overflow: hidden;
   width: 70%;
+  
+  
 }
 .collapse-header {
   background-color: #FF6060;
@@ -53,6 +58,7 @@
 .collapse-content {
   padding: 0.5rem 0;
 }
+
 @media (max-width: 1272px) {
   
 }
@@ -67,13 +73,13 @@
 }
 
 @media (max-width: 796px) {
-  .collapse-header {
+  /*.collapse-header {
     font-size: 0.62rem;
   }
   .collapse-icon {
     width: 0.8rem;
     height: 0.8rem;
-  }
+  }*/
 }
 @media (max-width: 636px) {
   .collapse-header {

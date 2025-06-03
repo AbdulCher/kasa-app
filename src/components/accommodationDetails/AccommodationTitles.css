@@ -1,0 +1,186 @@
+.title-text h1 { font-weight: normal; color: #ff6060; 
+  font-size: 2.25rem; 
+}
+.title-text p { 
+  color: black; font-size: 1.125rem;  
+}
+
+@media (max-width: 1272px) {
+  .title-text h1 { font-size: 2rem; }
+  .title-text p { font-size: 0.74rem; }
+}
+@media (max-width: 1093px) {
+  .title-text h1 { font-size: 1.8rem; }
+  .title-text p { font-size: 0.64rem; }
+}
+@media (max-width: 796px) {
+  .title-text h1 { font-size: 1.30rem; }
+  .title-text p { font-size: 0.74rem; }
+}
+@media (max-width: 636px) {
+  .title-text h1 { font-size: 1.10rem; }
+  .title-text p { font-size: 0.54rem; }
+  
+}
+@media (max-width: 525px) {
+  .title-text h1 { font-size: 0.90rem; }
+  .title-text p { font-size: 0.44rem;
+}
+
+}
+@media (max-width: 475px) {
+
+}
+@media (max-width: 393px) {
+ 
+}
+@media (max-width: 573px) {
+    
+  .title-text h1 {
+    font-size: 1.12rem;
+  }
+  .title-text p {
+    font-size: 0.87rem;
+  }
+  
+}
+
+
+
+
+/*@media (max-width: 1324px) {
+  .accommodation-infos { gap: 5px; }
+
+  .div-title-tag .div-host-rating { margin-top: 20px; }
+  .title-text h1 { font-size: 2rem; }
+  .title-text p { font-size: 1rem; }
+.host {
+  width: 8rem; 
+  
+}
+.title-text p { 
+  margin-top: 10px;
+}
+.host img { width: 3.8rem; }
+  .host p { font-size: 1rem; }
+  .host { gap: 2px; }
+  
+  .star { width: 30px; }
+  .tag { font-size: 12px; }
+ 
+}
+
+@media (max-width: 1272px) {
+  .accommodation-infos { margin: 0px 70px; }
+  .carrousel-collapses { margin: 30px 70px; }
+  
+}
+
+@media (max-width: 1140px) {
+  .div-title-tag, .div-host-rating { margin-top: 20px; }
+
+  .title-text h1 { font-size: 1.7rem; }
+  .title-text p { font-size: 1rem; }
+  .star { width: 28px; height: 28px; }
+  .host img { width: 3.6rem; }
+  
+  .host p { font-size: 0.86rem; }
+  .tag { font-size: 10px; }
+  
+}
+
+@media (max-width: 1015px) {
+  .accommodation-infos { margin: 0px 100px; gap: 2px;}
+  .carrousel-collapses { margin: 30px 100px; }
+  .title-text h1 { font-size: 1.4rem; }
+  .title-text p { font-size: 1.2rem; }
+  .star { width: 30px; }
+  .tag { font-size: 7px;  width: 6rem}
+}
+
+@media (max-width: 933px) {
+  .title-text h1 { font-size: 1.2rem; }
+  .title-text p { font-size: 1.rem; }
+  .star { width: 24px; }
+  .tag { font-size: 6.8px; }
+  .div-host-rating { 
+     margin-top: 15px; gap: 1px;}
+}
+ 
+@media (max-width: 848px) {
+  .accommodation-infos { margin: 0px 60px; }
+  .carrousel-collapses { margin: 24px 60px; }
+  .tag { font-size: 7px; width: 7.5rem}
+  
+ }
+
+@media (max-width: 749px) {
+  .title-text p { font-size: 0.8rem; margin-top: 4px;}
+  .title-text h1 { font-size: 1.2rem; }
+  .host img {
+    width: 2.90rem;}
+    .host p { font-size: 1rem; }
+    .tag { font-size: 4px; width: 4.5rem}
+    .star { width: 34px; height: 28px; }
+  /*
+  
+  
+  
+  
+ 
+  
+  }*/
+ /*}
+ @media (max-width: 657px) {
+  .star { width: 30px; height: 26px; }
+  /*
+  .title-text h1 { font-size: 1.2rem; }
+  
+  
+  
+  
+  .host { width: 2rem; height: 2rem; margin-top: 18px;}
+  .host p { font-size: 0.86rem; }
+  .rating {
+    margin-top: 10px; 
+  }
+   .star { width: 18px; height: 18px; }
+  .div-title-tag { margin-top: 15px; }
+  .div-host-rating { margin-top: 0px; width: 1px;}
+  */
+ /*}
+
+@media (max-width: 572px) {
+  .accommodation-infos { margin: 0px 60px; flex-direction: column; }
+  .carrousel-collapses { margin: 24px 60px; }
+  .title-text h1 { font-size: 1.1rem; }
+  .title-text p { font-size: 0.64rem; }
+  .tag { font-size: 0.32rem; width: 4rem; margin-top: 10px;}
+
+  .div-title-tag  { margin-top: 15px; gap: 1px;}
+  .div-host-rating { display: flex; flex-direction: row-reverse; 
+    justify-content: space-between;  margin-top: 5px; gap: 1px;}
+  
+  
+  .rating { align-items: center; }
+
+  .host img { width: 3rem; height: 3rem; }
+  .host p {align-items: center; font-size: 12px; }
+
+  .host { margin-top: 0px; gap: 6px; padding-top: 6px;}
+  
+  
+  .carrousel-collapses { display: flex; flex-direction: column; gap: 0; }
+}
+@media (max-width: 404px) {
+  .accommodation-infos { margin: 0px 20px; }
+
+  .star { width: 20px; height: 26px; }
+  
+  .host p {align-items: center; font-size: 12px;}
+
+  .carrousel-collapses { margin: 24px 20px; }
+  .title-text h1 { font-size: 1.1rem; }
+  
+}
+

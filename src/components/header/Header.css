@@ -2,11 +2,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.25rem 0;
-    margin: 50px 100px;
+    padding: 0;
+    margin: 45px 100px;
 }
 .header-logo img {
-    width: 13.12rem;
+    width: 13.125rem;
 }
 .navigation-link {
     text-decoration: none;
@@ -18,108 +18,30 @@
 .navigation-link.active {
   text-decoration: underline;
 }
+
 @media (max-width: 1272px) {
-  
+  .header { margin: 30px 70px; }
 }
-@media (max-width: 1093px) {
-  .header {
-    margin-top: 30px;
-    margin-bottom: 30px;
-  }
-  .header-logo img {
-   width: 11.12rem;
+@media (max-width: 1028px) { 
+  .header { margin: 30px 100px; }
+  .header-logo img { width: 12.06rem; }
+  .navigation-link { font-size: 1.2rem; }
 }
-.navigation-link {
-  font-size: 1.5rem;
+@media (max-width: 848px) {
+  .header { margin: 30px 60px; }
 }
+@media (max-width: 576px) {
+  .header-logo img { width: 9.06rem; height: 2.94rem; }
+  .navigation-link { font-size: 0.75rem; }
 }
 
-@media (max-width: 795px) {
-  .header {
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-  .header-logo img {
-   width: 9.12rem;
-}
-  .navigation-link {
-    font-size: 1rem;
+@media (max-width: 404px) {
+  .header-logo img { width: 8.06rem; height: 2.94rem; }
+  .navigation-link { font-size: 0.75rem; }
+  .header { margin: 15px 20px;
   }
 }
-@media (max-width: 636px) {
-  .header-logo img {
-   width: 7.12rem;
-}
-  .navigation-link {
-    font-size: 0.92rem;
-  }
-}
-@media (max-width: 475px) {
-  .header {
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-  .header-logo img {
-   width: 5.22rem;
-}
-  .navigation-link {
-    font-size: 0.52rem;
-  }
-}
-@media (max-width: 393px) {
-  .header {
-    margin-top: 5px;
-    margin-bottom: 2px;
-  }
-  .header-logo img {
-   width: 3.2rem;
-}
-  .navigation-link {
-    font-size: 0.30rem;
-  }
-}
-/*@media (max-width: 573px) {
-  .header {
-    margin-bottom: 0;
-  }
-  .header-logo img {
-    width: 11.25rem;
-  }
-  .navigation-link {
-    font-size: 0.75rem;
-    
-  }
-}
-/*@media (max-width: 660px) {
-  .header {
-    margin-bottom: 10px;
-  }
-  .navigation-link {
-    font-size: 16px;
-  }
-  .card-title {
-    font-size: 9px;
-  }
-  .header-logo img {
-    width: 140px;
-  }
-}
-@media (max-width: 482px) {
-  .header {
-    margin-bottom: 0px;
-  }
-  .header-logo img {
-    width: 110px;
-  }
-  .navigation-link {
-    font-size: 12px;
-  }
-}
-@media (max-width: 482px) {
-  .header-logo img {
-    width: 100px;
-  }
-  .navigation-link {
-    font-size: 10px;
-  }
-}
+
+
+
+

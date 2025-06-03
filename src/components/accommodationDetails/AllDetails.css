@@ -1,0 +1,35 @@
+.accommodation-infos { display: flex; flex-direction: row; 
+  justify-content: space-between; margin: 0px 100px; 
+}
+.accommodation-infos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0px 80px;
+  padding: 1rem;
+}
+.carrousel-collapses {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0px 80px;
+  padding: 1rem;
+  gap: 4rem; /* espace horizontal entre les Collapse */
+}
+.carrousel-collapses > * {
+  flex: 1;
+}
+
+.carrousel-collapses .collapse {
+  width: 100%;
+  margin: 0; /* Supprime toute marge par défaut */
+}
+
+.div-title-tag { display: flex; flex-direction: column;
+  justify-content: space-between;
+}
+.div-title-tag { 
+  font-weight: normal; color: #ff6060; 
+  font-size: 2.25rem; 
+}
+

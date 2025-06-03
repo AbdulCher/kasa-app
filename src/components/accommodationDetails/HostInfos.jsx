@@ -1,30 +1,17 @@
-import Collapse from "../collapse/Collapse";
 import starFilled from "../../assets/star-filled.svg";
 import starEmpty from "../../assets/star-empty.svg";
-import "./AccommodationDetails.css";
+import "./HostInfos.css"
 
-export default function AccommodationDetails({ card }) {
+export default function HostInfos ({ card }) {
   return (
     <>
-    <div className="accommodation-infos">
-        <div className="div-title-tag">
-            <div className="title-text">
-                <h1>{card.title}</h1>
-                <p>{card.location}</p>
-            </div>
-            <div className="tags-container">
-                {card.tags.map((tag, index) => (
-                <span key={index} className="tag">{tag}</span>
-                ))}
-            </div>
-            
-        </div>
-
+    <div className="host-infos">
         <div className="div-host-rating">
             <div className="host">
                 <p className="host-name">{card.host.name}</p>
                 <img className="host-picture" src={card.host.picture} alt={card.host.name} />
             </div>
+            
             <div className="rating">
                 {[1, 2, 3, 4, 5].map((star) => (
                     <img
@@ -37,10 +24,7 @@ export default function AccommodationDetails({ card }) {
             </div>
         </div>
     </div>
-    <div className="carrousel-collapses">
-        <Collapse title="Description" content={card.description} />
-        <Collapse title="Équipements" content={card.equipments} />
-    </div>
+    
     </>
   );
 }

@@ -1,0 +1,123 @@
+.div-host-rating { display: flex; flex-direction: column;
+  gap: 0px; margin-top: 25px;
+}
+.rating { display: flex; justify-content: center; gap: 0;
+  font-size: 12rem; margin-top: 10px;
+}
+.star { width: 36px; height: 36px;
+  color: lightgray; padding: 4px; ; 
+}
+.star.filled { color: #ff6060; }
+
+.host { display: flex; flex-direction: row;
+   gap: 6px; align-items: center; width: 10rem; height: 4rem;
+}
+.host p { font-size: 1.12rem; font-weight: 500;
+  color: #ff6060; text-align: right;  
+}
+.host img { width: 4rem; 
+  border-radius: 50%; object-fit: cover; 
+}
+
+
+@media (max-width: 1272px) {
+    
+}
+@media (max-width: 1093px) {
+    
+}
+
+@media (max-width: 796px) {
+  
+.host-name {
+  font-size: 0.72rem;
+
+}
+.rating {
+  
+  font-size: 10rem;
+}
+.star {
+  width: 1rem;
+  
+}
+}
+
+
+/*
+@media (max-width: 636px) {
+  .title-text h1 {
+  font-size: 1.10rem;
+}
+
+.title-text p {
+  
+  font-size: 0.54rem;
+}
+.host-name {
+  font-size: 0.52rem;
+
+}
+.tag {
+ 
+  font-size: 0.08rem;
+ 
+}
+.rating {
+  
+  font-size: 10rem;
+}
+.star {
+  width: 0.8rem;
+  
+}
+}
+@media (max-width: 525px) {
+   .title-text h1 {
+  font-size: 0.90rem;
+}
+
+.title-text p {
+  
+  font-size: 0.44rem;
+}
+.host-name {
+  font-size: 0.42rem;
+
+}
+.tag {
+ 
+  font-size: 0.06rem;
+ 
+}
+.rating {
+  
+  font-size: 8rem;
+}
+.star {
+  width: 0.6rem;
+  
+}
+}
+@media (max-width: 475px) {
+
+}
+@media (max-width: 393px) {
+ 
+}
+@media (max-width: 573px) {
+    
+  .title-text h1 {
+    font-size: 1.12rem;
+  }
+  .title-text p {
+    font-size: 0.87rem;
+  }
+  .tag {
+    font-size: 0.62rem;
+  }
+  .host-name {
+  font-size: 1.12rem;
+  }
+
+}

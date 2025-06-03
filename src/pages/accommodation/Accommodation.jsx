@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import Carrousel from "../../components/carrousel/Carrousel";
-import AccommodationDetails from "../../components/accommodationDetails/AccommodationDetails";
+import AllDetails from "../../components/accommodationDetails/AllDetails.jsx";
 
 export default function Accommodation() {
   const { id } = useParams();
@@ -22,7 +22,7 @@ export default function Accommodation() {
   return (
     <div className="carrousel-details">
       <Carrousel pictures={card.pictures} />
-      <AccommodationDetails card={card} />
+      <AllDetails card={card} />
     </div>
   );
 }

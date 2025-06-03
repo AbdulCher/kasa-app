@@ -9,9 +9,15 @@
   border: transparent;
   margin: 40px 100px;
 }
-
-
-/*@media (max-width: 832px) {
-    
-    
+@media (max-width: 1272px) {
+  .gallery { margin: 30px 70px; padding: 8px; }
 }
+@media (max-width: 1028px) { 
+  .gallery { margin: 30px 100px; }
+}
+@media (max-width: 848px) {
+  .gallery { margin: 30px 60px; }
+}
+@media (max-width: 404px) {
+  .gallery { margin: 15px 20px; }
+} 
