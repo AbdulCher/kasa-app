@@ -38,6 +38,12 @@
   padding: 0.5rem 0;
 }
 
+@media (max-width: 1028px) {
+  .collapse-header { height: 40px; }
+  .collapse h3 { font-size: 15px; }
+  .collapse-icon { width: 1.4rem; height: 1.4rem; transition: transform 0.9s ease; }
+  .collapse-content p { font-size: 14px; }
+}
 @media (max-width: 572px) {
   .collapse-header { height: 30px; }
   .collapse h3 { font-size: 10px; }
