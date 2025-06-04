@@ -24,7 +24,6 @@ export default function HostInfos ({ card }) {
             </div>
         </div>
     </div>
-    
     </>
   );
 }

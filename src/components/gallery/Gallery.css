@@ -1,13 +1,8 @@
 .gallery {
-  display: flex;
-  background-color: #F6F6F6;
-  flex-wrap: wrap;
-  gap: 1rem;
-  padding: 10px;
-  justify-content: center;
-  border-radius: 0.62rem;
-  border: transparent;
-  margin: 40px 100px;
+  display: flex; background-color: #F6F6F6; flex-wrap: wrap;
+  gap: 1rem; padding: 10px; justify-content: center;
+  border-radius: 0.62rem; border: transparent; margin: 40px 100px;
+  font-family: "Montsarrat", sans-serif; font-weight: 500;
 }
 @media (max-width: 1272px) {
   .gallery { margin: 30px 70px; padding: 8px; }

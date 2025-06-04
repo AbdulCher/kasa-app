@@ -1,5 +1,4 @@
-// Card.jsx
-import "./Card.css"; // Tu peux créer ce fichier pour styliser la carte
+import "./Card.css"; 
 import { Link } from "react-router-dom";
 
 export default function Card({ id, title, cover }) {

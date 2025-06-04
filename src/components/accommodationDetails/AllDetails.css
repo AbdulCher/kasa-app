@@ -2,34 +2,42 @@
   justify-content: space-between; margin: 0px 100px; 
 }
 .accommodation-infos {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 0px 80px;
-  padding: 1rem;
+  display: flex; flex-direction: row; justify-content: space-between;
+  margin: 0px 100px; padding: 1rem 0; 
 }
 .carrousel-collapses {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 0px 80px;
-  padding: 1rem;
-  gap: 4rem; /* espace horizontal entre les Collapse */
+  display: flex; flex-direction: row; justify-content: space-between;
+  margin: 0px 80px; padding: 1rem; gap: 4rem; 
 }
 .carrousel-collapses > * {
   flex: 1;
 }
-
 .carrousel-collapses .collapse {
-  width: 100%;
-  margin: 0; /* Supprime toute marge par défaut */
-}
-
-.div-title-tag { display: flex; flex-direction: column;
-  justify-content: space-between;
+  width: 100%; margin: 0; 
 }
 .div-title-tag { 
-  font-weight: normal; color: #ff6060; 
-  font-size: 2.25rem; 
+  display: flex; flex-direction: column;
 }
-
+.div-title-tag { 
+  font-weight: normal; color: #ff6060; font-size: 2.25rem; 
+}
+@media (max-width: 1272px) {
+  .accommodation-infos { margin: 0px 70px; }
+  .carrousel-collapses { margin: 0px 50px; }
+}
+@media (max-width: 1028px) {
+  .accommodation-infos { margin: 0px 100px; }
+  .carrousel-collapses { margin: 0px 80px; }
+}
+@media (max-width: 849px) {
+  .accommodation-infos { margin: 0px 60px; }
+  .carrousel-collapses { gap: 3rem; margin: 0px 40px; }
+}
+@media (max-width: 572px) {
+  .accommodation-infos { flex-direction: column; margin: 0px 60px; }
+  .carrousel-collapses { gap: 3rem; margin: 0px 40px; }
+}
+@media (max-width: 424px) {
+  .accommodation-infos { flex-direction: column; margin: 0px 20px; }
+  .carrousel-collapses { gap: 3rem; margin: 0px 4px; }
+}

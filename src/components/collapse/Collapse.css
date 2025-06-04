@@ -1,103 +1,47 @@
-/*.collapses-div {
-  height: 298px;
-}*/
 .collapse {
-  border: transparent;
-  border-radius: 0.31rem;
-  margin: 0 auto;
-  overflow: hidden;
-  width: 70%;
-  
-  
+  border: transparent; border-radius: 0.31rem;
+  margin: 0 auto; overflow: hidden; width: 70%; 
+}
+.collapse h3 {
+  font-weight: 700; font-family: "Montserrat," sans-serif;
+  font-size: 24px; padding-left: 10px;
 }
 .collapse-header {
-  background-color: #FF6060;
-  color: #ffff;
-  padding: 0.4rem 0.4rem;
-  cursor: pointer;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-radius: 0.31rem;
-  font-size: 1.12rem;
+  background-color: #FF6060; color: #ffff; padding: 0.4rem 0.4rem;
+  display: flex; justify-content: space-between;
+  align-items: center; border-radius: 0.31rem; cursor: pointer;  
 }
 .collapse-content {
-  padding: 1rem;
-  background-color: #ffff;
+  padding: 1rem; background-color: #ffff;
 }
 .collapse-content.open {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: 0.5rem; padding-bottom: 0.5rem;
 }
 .collapse-icon {
-  width: 1.25rem;
-  height: 1.12rem;
-  transition: transform 0.9s ease;
+  width: 2rem; height: 2rem; transition: transform 0.9s ease;
 }
 .collapse-icon.rotated {
   transform: rotate(-180deg);
 }
-/* Conteneur avec transition d'ouverture */
 .collapse-content-wrapper {
-  padding: 0.62rem;
-  max-height: 0px;
-  font-size: 1.12rem;
-  overflow: hidden;
-  opacity: 0;
-  transform: translateY(-9px); /* déplacement vers le haut */
+  padding: 0.62rem; max-height: 0px; font-size: 1.12rem;
+  overflow: hidden; opacity: 0; transform: translateY(-9px); 
   transition: 
     max-height 0.9s ease,
     opacity 0.9s ease,
     transform 0.9s ease;
 }
 .collapse-content-wrapper.open {
-  max-height: 31.25rem; /* suffisamment grand pour le contenu */
-  opacity: 1;
-  transform: translateY(0); /* revient à sa position d'origine */
+  max-height: 31.25rem; opacity: 1; transform: translateY(0); 
 }
 .collapse-content {
   padding: 0.5rem 0;
 }
 
-@media (max-width: 1272px) {
-  
-}
-@media (max-width: 1093px) {
-  .collapse-header {
-    font-size: 1rem;
-  }
-  .collapse-icon {
-    width: 1rem;
-    height: 0.9rem;
-  }
+@media (max-width: 572px) {
+  .collapse-header { height: 30px; }
+  .collapse h3 { font-size: 10px; }
+  .collapse-icon { width: 1rem; height: 1rem; transition: transform 0.9s ease; }
+  .collapse-content p { font-size: 12px; }
 }
 
-@media (max-width: 796px) {
-  /*.collapse-header {
-    font-size: 0.62rem;
-  }
-  .collapse-icon {
-    width: 0.8rem;
-    height: 0.8rem;
-  }*/
-}
-@media (max-width: 636px) {
-  .collapse-header {
-    font-size: 0.42rem;
-  }
-}
-@media (max-width: 525px) {
-  .collapse-header {
-    font-size: 0.22rem;
-  }
-  .collapse-icon {
-    width: 0.6rem;
-    height: 0.6rem;
-  }
-}
-@media (max-width: 475px) {
-  
-}
-@media (max-width: 393px) {
-  
-}

@@ -1,4 +1,3 @@
-// Gallery.jsx
 import { useEffect, useState } from "react";
 import Card from "../card/Card";
 import "./Gallery.css";

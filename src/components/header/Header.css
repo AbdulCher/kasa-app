@@ -1,19 +1,13 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0;
-    margin: 45px 100px;
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 0; margin: 45px 100px;
 }
 .header-logo img {
-    width: 13.125rem;
+  width: 13.125rem;
 }
 .navigation-link {
-    text-decoration: none;
-    color: black;
-    font-size: 1.5rem;
-    margin-left: 1.25rem;
-    font-weight: 500;
+  text-decoration: none; color: black; font-size: 1.5rem;
+  margin-left: 1.25rem; font-weight: 500;
 }
 .navigation-link.active {
   text-decoration: underline;
@@ -35,7 +29,7 @@
   .navigation-link { font-size: 0.75rem; }
 }
 
-@media (max-width: 404px) {
+@media (max-width: 424px) {
   .header-logo img { width: 8.06rem; height: 2.94rem; }
   .navigation-link { font-size: 0.75rem; }
   .header { margin: 15px 20px;

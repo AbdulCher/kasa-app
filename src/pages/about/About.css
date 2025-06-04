@@ -1,5 +1,4 @@
-/*.about-collapes .collapse {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
+.about-collapse {
+    margin-bottom: 36px;
+    margin-top: 46px;
 }

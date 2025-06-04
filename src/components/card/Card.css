@@ -29,9 +29,8 @@
 @media (max-width: 576px) {
   .card { width: 16rem; height: 11rem; }
   .card-cover { height: 126px; }
-  .card-title { font-size: 0.82rem; padding-top: 0.05rem 1.19rem 0.94rem 0.8rem;
-      margin-right: 2rem;
-  }
+  .card-title { font-size: 0.82rem;  margin-right: 2rem; 
+    padding-top: 0.05rem 1.19rem 0.94rem 0.8rem; }
 }
 @media (max-width: 324px) {
   .card { width: 14rem; height: 9rem; }

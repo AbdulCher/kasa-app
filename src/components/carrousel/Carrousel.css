@@ -1,29 +1,15 @@
 .my-carrousel {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  margin: 0px 100px;
-  padding: 0;
-  
+  display: flex; align-items: center; justify-content: center;
+  position: relative; margin: 0px 100px; padding: 0;
 }
 .my-carrousel img {
-  width: 100%;
-  max-height: 25.94rem;
-  object-fit: cover;
-  border-radius: 0.62rem;
+  width: 100%; max-height: 25.94rem;
+  object-fit: cover; border-radius: 0.62rem;
 }
 .arrow {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 2.5rem;
-  background: none;
-  border: none;
-  color: white;
-  cursor: pointer;
-  z-index: 2;
-  padding: 0 0.94rem;
+  position: absolute; top: 50%; background: none; color: white;
+  transform: translateY(-50%); font-size: 2.5rem; border: none;
+  cursor: pointer; z-index: 2; padding: 0 0.94rem;
 }
 .arrow.left {
   left: 0.62rem;
@@ -32,67 +18,32 @@
   right: 0.62rem;
 }
 .carousel-image {
-  width: 100%;
-  max-height: 31.25rem;
-  object-fit: cover;
-  border-radius: 0.5rem;
+  width: 100%; max-height: 31.25rem;
+  object-fit: cover; border-radius: 0.5rem;
 }
 .nav-button {
-  position: absolute;
-  top: 50%;
-  font-size: 2rem;
-  background: rgba(0,0,0,0.3);
-  color: white;
-  border: none;
-  padding: 0.5rem;
-  cursor: pointer;
-  transform: translateY(-50%);
-  z-index: 1;
+  position: absolute; top: 50%; font-size: 2rem;
+  background: rgba(0,0,0,0.3); color: white;
+  border: none; padding: 0.5rem; cursor: pointer;
+  transform: translateY(-50%); z-index: 1;
 }
 @media (max-width: 1272px) {
-  .my-carrousel {
-    margin: 0px 70px;
-  }
+  .my-carrousel { margin: 0px 70px; } 
   
 }
 @media (max-width: 1028px) {
-  .my-carrousel {
-    margin: 0px 100px;
-  }
+  .my-carrousel { margin: 0px 100px; }
+  .arrow img { width: 80px; }
 }
 @media (max-width: 848px) {
-  .my-carrousel {
-    margin: 0px 60px;
-  }
- 
-}
+  .my-carrousel { margin: 0px 60px; }
+  .arrow img { width: 70px; }
+ }
 
-@media (max-width: 404px) {
-  .my-carrousel {
-    margin: 0px 20px;
-  }
-  /*.my-carrousel button {
-    width: 6rem;
-  }*/
+@media (max-width: 424px) {
+  .my-carrousel { margin: 0px 20px;}
+  .arrow img { width: 50px; }
 }
-/*@media (max-width: 636px) {
-  
-}
-@media (max-width: 525px) {
- .my-carrousel button {
-    width: 5rem;
-  }
-}
-@media (max-width: 475px) {
-  .my-carrousel button {
-    width: 4rem;
-  }
-}
-@media (max-width: 393px) {
-  
-}
-
-
 
 
 

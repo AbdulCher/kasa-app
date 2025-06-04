@@ -1,35 +1,25 @@
 
-.tags-container { display: flex; flex-wrap: wrap; gap: 0.62rem;
-  margin-bottom: 0; 
+.tags-container { display: flex; flex-wrap: wrap; 
+  gap: 0.42rem; margin-bottom: 0;  
 }
-
 .tag { width: 10rem;  padding: 0.3rem 0.25rem; margin-top: 20px;
   text-align: center; border-radius: 1.25rem;
   background-color: #ff6060; color: white;
-  font-size: 12px; font-weight: 500; 
+  font-size: 12px; font-weight: 500;  
 }
 
-@media (max-width: 1272px) {
-  
+@media (max-width: 1330px) {
+  .tag { font-size: 9px; width: 8rem;}
 }
-@media (max-width: 1093px) {
-  
+@media (max-width: 1029px) {
+  .tag { font-size: 5px; width: 6rem; margin-top: 10px; }
 }
-@media (max-width: 796px) {
-  .tag { font-size: 0.10rem; }
+@media (max-width: 946px) {
+  .tag { font-size: 5px; width: 5rem; margin-top: 10px; }
 }
-@media (max-width: 636px) {
-  .tag { font-size: 0.08rem; }
+@media (max-width: 849px) {
+  .tag { font-size: 0.10rem;  width: 4rem;}
 }
-@media (max-width: 525px) {
-    .tag { font-size: 0.06rem; }
-}
-@media (max-width: 475px) {
-
-}
-@media (max-width: 393px) {
- 
-}
-@media (max-width: 573px) {
-  .tag { font-size: 0.62rem; }
+@media (max-width: 424px) {
+  .tag { font-size: 3px; width: 3.6rem; margin-top: 10px; }
 }

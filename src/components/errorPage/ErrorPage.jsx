@@ -8,8 +8,8 @@ export default function ErrorPage() {
         <>
             <div className="error">
                 <img src={Error404} alt="error-404" className="error404"/>
-                <img src={ErrorText} alt="error-text" className="errorText"/>
-                <div>
+                <p className="errorText">Oups! La page que vous demandez n'existe pas.</p> 
+                <div className="back-link">
                     <Link to="/">Retour sur la page accueil</Link>
                 </div>
                 
