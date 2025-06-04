@@ -27,9 +27,9 @@
   border: none; padding: 0.5rem; cursor: pointer;
   transform: translateY(-50%); z-index: 1;
 }
+
 @media (max-width: 1272px) {
   .my-carrousel { margin: 0px 70px; } 
-  
 }
 @media (max-width: 1028px) {
   .my-carrousel { margin: 0px 100px; }
@@ -38,8 +38,13 @@
 @media (max-width: 848px) {
   .my-carrousel { margin: 0px 60px; }
   .arrow img { width: 70px; }
- }
+}
 
+ @media (max-width: 576px) {
+  .my-carrousel img { width: 100%; min-height: 335px; } 
+  .arrow img { width: 75px; height: 1px; 
+    object-fit: fill; font-size: 5px;} 
+}
 @media (max-width: 424px) {
   .my-carrousel { margin: 0px 20px;}
   .arrow img { width: 50px; }
