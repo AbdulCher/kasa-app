@@ -40,7 +40,7 @@
 
 @media (max-width: 1028px) {
   .collapse-header { height: 40px; }
-  .collapse h3 { font-size: 15px; }
+  .collapse h3 { font-size: 18px; }
   .collapse-icon { width: 1.4rem; height: 1.4rem; transition: transform 0.9s ease; }
   .collapse-content p { font-size: 14px; }
 }
