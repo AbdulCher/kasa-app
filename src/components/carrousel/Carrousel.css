@@ -55,7 +55,11 @@
   .my-carrousel { margin: 0px 20px; }
   .my-carrousel img { width: 100%; min-height: 335px; } 
   .arrow img { width: 75px; height: 1px; 
-    object-fit: fill; font-size: 5px;} 
+    object-fit: fill; font-size: 5px;}
+  .carrousel-counter {
+  display: none; 
+ 
+} 
 }
 @media (max-width: 424px) {
   .my-carrousel { margin: 0px 20px;}
