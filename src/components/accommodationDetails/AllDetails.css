@@ -33,11 +33,7 @@
   .accommodation-infos { margin: 0px 60px; }
   .carrousel-collapses { gap: 3rem; margin: 0px 40px; }
 }
-@media (max-width: 572px) {
-  .accommodation-infos { flex-direction: column; margin: 0px 60px; }
-  .carrousel-collapses { gap: 3rem; margin: 0px 40px; }
-}
-@media (max-width: 424px) {
+@media (max-width: 576px) {
   .accommodation-infos { flex-direction: column; margin: 0px 20px; }
-  .carrousel-collapses { gap: 3rem; margin: 0px 4px; }
+  .carrousel-collapses { gap: 0rem; margin: 0px; flex-direction: column;}
 }

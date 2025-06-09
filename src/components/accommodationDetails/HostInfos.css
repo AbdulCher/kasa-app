@@ -55,7 +55,7 @@
   .host { width: 6rem; }
   .host p { font-size: 0.8rem; }
 }
-@media (max-width: 572px) {
+@media (max-width: 576px) {
   .div-host-rating { flex-direction: row-reverse; 
     justify-content: space-between; align-items: center;
     margin-top: 10px; }

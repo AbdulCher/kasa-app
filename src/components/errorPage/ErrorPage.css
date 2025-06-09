@@ -7,54 +7,46 @@
 }
 .errorText {
     width: 872px; height: 51px; font-size: 36px; color: #FF6060;
-    display: flex; justify-content: center; align-items: center; 
-    flex-wrap: wrap; 
+    display: flex; justify-content: center; align-items: center; flex-wrap: wrap; 
 }
 .back-link {
-    font-size: 18px;
-    margin-bottom: 139px;
+    font-size: 18px; margin-bottom: 139px;
 }
 
 @media (max-width: 1028px) {
-  .error404 {
-    height: 200px;
-}
-.errorText { width: 772px; height: 51px; font-size: 26px; }
-
+    .error404 {
+        height: 200px;
+    }
+    .errorText { 
+        width: 772px; height: 51px; font-size: 26px; 
+    }
     .back-link {
-    font-size: 14px;
-    
-}
+        font-size: 14px;
+    }
 }
 @media (max-width: 779px) {
-  .error404 {
-    height: 160px;
-}
-.errorText {
-    width: 572px; height: 51px; font-size: 20px; }
-
-
+    .error404 {
+        height: 160px;
+    }
+    .errorText {
+        width: 572px; height: 51px; font-size: 20px; 
+    }
     .back-link {
-    font-size: 14px;
-    
-}
+        font-size: 14px;
+    }
 }
 @media (max-width: 572px) {
     .error {
         margin: 0px 60px;
     }
-  .error404 {
-    height: 100px; width: 220px; margin-top: 113px;
-}
-    .errorText { width: 260px; height: 52px; font-size: 18px;
-         text-indent: 45px; 
+    .error404 {
+        height: 100px; width: 220px; margin-top: 113px;
     }
-
+    .errorText { 
+        width: 260px; height: 52px; font-size: 18px;
+        text-indent: 45px; 
+    }
     .back-link {
-    font-size: 14px;
-    
-}
-}
-@media (max-width: 424px) {
-  
+        font-size: 14px;
+    }
 }

@@ -7,8 +7,6 @@ import Accommodation from "./pages/accommodation/Accommodation";
 import Footer from './components/footer/Footer';
 import "./App.css";
 
-
-
 export default function App() {
   return (
     <>

@@ -5,12 +5,9 @@
 }
 html, body {
   height: 100%;
-  margin: 0 auto;
-}
-
-html {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-  height: 100%;
 }
 
 body {
@@ -24,8 +21,15 @@ body {
   font-weight: normal;
 }
 
-@media (max-width: 567px) {
+@media (max-width: 576px) {
   body, html {
     height: 842px;
+    width: 100%;
+    margin: 0;
   }
+  .card {
+    width: 100%;
+    margin: 0px;
+  }
+  
 }

@@ -25,13 +25,14 @@
   .header { margin: 30px 60px; }
 }
 @media (max-width: 576px) {
+  .header { margin: 30px 20px; }
   .header-logo img { width: 9.06rem; height: 2.94rem; }
-  .navigation-link { font-size: 0.75rem; }
+  .navigation-link { font-size: 0.85rem; }
 }
 
 @media (max-width: 424px) {
-  .header-logo img { width: 8.06rem; height: 2.94rem; }
-  .navigation-link { font-size: 0.75rem; }
+  .header-logo img { width: 8rem; height: 2.94rem; }
+  .navigation-link { font-size: 0.85rem; margin-left: 10px;}
   .header { margin: 15px 20px;
   }
 }

@@ -10,19 +10,24 @@ export default function Accommodation() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    fetch("/data/logements.json")
-      .then((res) => res.json())
-      .then((data) => {
+    const fetchData = async () => {
+      try {
+        const res = await fetch("/data/logements.json");
+        const data = await res.json();
         const found = data.find((item) => item.id === id);
         setCard(found);
+      } catch (err) {
+        console.error("Erreur fetch:", err);
+      } finally {
         setIsLoading(false);
-      })
-      .catch((err) => console.error("Erreur fetch:", err));
-      setIsLoading(false);
+      }
+    };
+
+    fetchData();
   }, [id]);
 
-    if (isLoading) return <p>Chargement...</p>;
-    if (!card) return <ErrorPage />;
+  if (isLoading) return <p>Chargement...</p>;
+  if (!card) return <ErrorPage />;
 
   return (
     <div className="carrousel-details">

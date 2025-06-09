@@ -4,6 +4,7 @@
   border-radius: 0.62rem; border: transparent; margin: 40px 100px;
   font-family: "Montsarrat", sans-serif; font-weight: 500;
 }
+
 @media (max-width: 1272px) {
   .gallery { margin: 30px 70px; padding: 8px; }
 }
@@ -12,6 +13,14 @@
 }
 @media (max-width: 848px) {
   .gallery { margin: 30px 60px; }
+}
+@media (max-width: 576px) {
+  .gallery { margin: 30px 20px; 
+    padding: 0; display: block;
+  }
+  .gallery .card {
+    margin-bottom: 2rem;
+  }
 }
 @media (max-width: 404px) {
   .gallery { margin: 15px 20px; }

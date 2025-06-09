@@ -17,10 +17,19 @@ export default function Carrousel({ pictures }) {
       <button className="arrow left" onClick={handlePrev}>
         <img src="/icons/arrow-left.svg" alt="Précédent" />
       </button>
+
       <img src={pictures[index]} alt={`Image ${index + 1}`} />
+
       <button className="arrow right" onClick={handleNext}>
         <img src="/icons/arrow-right.svg" alt="Suivant" />
       </button>
+
+      {/* Compteur */}
+      {pictures.length > 1 && (
+        <div className="carrousel-counter">
+          {index + 1} / {pictures.length}
+        </div>
+      )}
     </div>
   );
 }

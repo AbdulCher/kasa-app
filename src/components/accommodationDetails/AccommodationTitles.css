@@ -26,3 +26,8 @@
   .title-text p { font-size: 0.7rem; }
   .title-text p { padding-top: 2px}
 }
+@media (max-width: 576px) {
+  .title-text h1 { font-size: 1.25rem; }
+  .title-text p { font-size: 0.7rem; }
+  .title-text p { padding-top: 2px}
+}

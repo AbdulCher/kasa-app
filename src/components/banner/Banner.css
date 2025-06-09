@@ -16,7 +16,7 @@
 }
 
 @media (max-width: 1272px) {
-  .banner-page { height: 12.94rem; margin: 1.875rem 4.375rem; } /*70px*/
+  .banner-page { height: 12.94rem; margin: 1.875rem 4.375rem; } 
   .banner-text { font-size: 2.1875rem; }
 }
 @media (max-width: 1028px) {
@@ -28,13 +28,10 @@
   .banner-text { font-size: 23px; }
 }
 @media (max-width: 576px) {
-  .banner-text { font-size: 17px; }
+  .banner-text { font-size: 24px; width: 225px; height: 48px; text-align: start;}
+  .banner-page { margin: 30px 20px; }
 }
 @media (max-width: 404px) {
-  .banner-page { height: 6.93rem; margin: 15px 20px; }
-  .banner-text {font-size: 14px; }
+  .banner-text {font-size: 20px; }
 }
-@media (max-width: 330px) {
-  .banner-page { margin: 15px 18px;}
-  .banner-text { font-size: 16.8px; text-align: start; margin: 16px 94px 16px 32px; }
-}
+
